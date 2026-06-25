@@ -1,0 +1,16 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sendMessage.js",
+  "scripts": {
+    "start": "node sendMessage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^7.17.0",
+    "dotenv": "^17.4.2"
+  }
+}
