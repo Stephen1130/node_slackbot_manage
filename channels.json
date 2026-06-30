@@ -2,6 +2,113 @@
   {
     "channel_name": "cs-request-voucher",
     "purpose": "Voucher requests (L2 — Rose approves)",
-    "who_posts": "CS Rep"
+    "who_posts": "CS Rep",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "cs-request-shopify-address",
+    "purpose": "Address-change requests (registry name)",
+    "who_posts": "cs-rep-agent → cs-backend-manager-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "cs-request-shopify-changes",
+    "purpose": "Shopify changes (address etc.; live channel in code)",
+    "who_posts": "cs-rep-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "cs-request-refund",
+    "purpose": "Refund requests after customer confirms (Rose approves/declines)",
+    "who_posts": "cs-rep-agent, cs triage scripts",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "sc-request-refund",
+    "purpose": "Supply-chain refunds for unfulfilled orders",
+    "who_posts": "cs-rep-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "aira-cs-private",
+    "purpose": "Aira's private channel for cross-manager CS issues",
+    "who_posts": "Aira (human)",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "supplier-request-quality-sizing",
+    "purpose": "Supplier-facing quality, sizing, defects, wrong color, damaged, fit, material",
+    "who_posts": "cs-rep-agent, supplier-outreach-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "supplier-request-cancellation-hold-updates",
+    "purpose": "Supplier cancellations, holds, order updates; price-reduction @stijn escalations",
+    "who_posts": "cs-rep-agent, supplier-outreach-agent, go-supply-loop",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "supplier-request-pickup-rts-wrong-address-orders",
+    "purpose": "Supplier pickup, RTS, wrong-address orders",
+    "who_posts": "cs-rep-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "sc-outreach-tickets",
+    "purpose": "Outreach tickets to suppliers",
+    "who_posts": "cs-rep-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "supplier-payments",
+    "purpose": "Liora posts supplier invoices → triggers supplier-payment-check; cashflow alerts default here",
+    "who_posts": "Liora (human), supplier-payment-check-agent, cashflow-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "empire-finance",
+    "purpose": "Intended home for daily ROAS report (proposed — post as draft if channel missing)",
+    "who_posts": "go-daily-roas-loop, daily-roas-agent",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "empire-ops",
+    "purpose": "Proposed future home for operations digest — not created yet",
+    "who_posts": "go-operations-loop (currently posts to customer-service-daily instead)",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
+  },
+  {
+    "channel": "(all channels + DMs)",
+    "purpose": "Message routing, urgent thread surfacing, daily 18:30 digest to _reports/slack/",
+    "who_posts": "slack-communication-agent (draft/routing only — never post on humans' behalf)",
+    "members": [
+      "s.d19941130@gmail.com"
+    ]
   }
 ]
